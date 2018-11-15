@@ -1,0 +1,7 @@
+import inventory.rest.api.Item
+
+model {
+    Item item
+}
+
+json g.render(item, [resolveTemplate:false])

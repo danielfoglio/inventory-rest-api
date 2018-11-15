@@ -1,0 +1,7 @@
+import inventory.rest.api.Item
+
+model {
+    Iterable<Item> itemList
+}
+
+json tmpl.item(itemList ?: [])
